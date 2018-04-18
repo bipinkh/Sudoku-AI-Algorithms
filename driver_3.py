@@ -27,7 +27,6 @@ if __name__ == "__main__":
         if btsBoard and bts.is_solved():
             bts.print_board(algo="BTS")
 
-
-        #and, if both cannot solve it, then the board does not have any solution
+        # and, if both cannot solve it then the probelm do not have solution
         else:
             print("This puzzle has no solution")
